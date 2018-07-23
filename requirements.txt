@@ -1,54 +1,149 @@
 Django==2.1rc1
 mysqlclient==1.3.13
-Pillow==5.2.0
-Pygments==2.2.0
-whoosh==2.7.4
+astroid==1.6.5
 bleach==2.1.3
+certifi==2018.4.16
+chardet==3.0.4
+confusable-homoglyphs==3.1.1
+django-appconf==1.0.2
 django-bleach==0.3.0
+django-compressor==2.2
 django-contrib-comments==1.8.0
 django-countries==5.3.1
-django-dbgettext==0.1
+django-dbgettext==0.1.2
 django-debug-toolbar==1.9
 django-hashid-field==2.1.1
-django-ical==1.4
+django-haystack-panel==0.2.1
+django-ical==1.5
+django-light-enums==0.1.6
 django-localflavor==2.0
 django-messages==0.4.4
 django-multiselectfield==0.1.8
 django-rosetta==0.8.1
+django-sass-processor==0.7
 django-sendfile==0.3.11
 django-tables2==1.10.0
+django-tinymce==2.7.0
 django-widget-tweaks==1.4.1
-flake8==2.5.4
-flake8-respect-noqa==0.2
+docutils==0.14
+flake8==3.5.0
+flake8-respect-noqa==0.3
+future==0.16.0
 hashids==1.2.0
 html5lib==1.0.1
+icalendar==4.0.2
+idna==2.7
+inflect==0.3.1
+isort==4.3.4
+Jinja2==2.10
+lazy-object-proxy==1.3.1
+libsass==0.11.1
 lockfile==0.12.2
+MarkupSafe==1.0
+mccabe==0.4.0
 microsofttranslator==0.8
+mock==2.0.0
+nose==1.3.7
+pbr==4.1.1
+pep8==1.7.1
 phabricator==0.7.0
+Pillow==5.2.0
 polib==1.1.0
 postmarkup==1.2.1
+pycryptodomex==3.6.4
+pyflakes==1.0.0
+Pygments==2.2.0
+pyjwkest==1.4.0
 pylint==1.9.2
 pylint-django==0.11.1
 pylint-plugin-utils==0.2.6
+python-daemon==2.1.2
+python-dateutil==2.7.3
+python-memcached==1.58
 python-openid==2.2.5
 pytz==2018.3
+rcssmin==1.0.6
+requests==2.19.1
+rjsmin==1.0.12
+simplejson==3.16.0
+six==1.11.0
 sqlparse==0.2.2
 unicodecsv==0.14.1
-libsass==0.11.1
-django-compressor==2.2
-django-sass-processor==0.3.5
-python-memcached==1.58
-django-haystack-panel==0.2.1
+urllib3==1.23
+webencodings==0.5.1
+Whoosh==2.7.4
+wrapt==1.10.11
 
-git+git://github.com/dcollinsn/django-async.git@0e464ed3e6b77bbbd6069c27924c624c3fe7c0d0#egg=django-async
-git+git://github.com/dcollinsn/django-avatar.git@068a765d7b8abe7808678ad52966a07b19d3d68d#egg=django-avatar
-git+git://github.com/dcollinsn/django-avatar-crop.git@9e24133c337790419e73b2753112299c2f1edfea#egg=django-avatar-crop
+# Customized requirements
+#
+# For each requirement from git, list the version number and commit date
+# that it is based on. When a customized requirement is based on a version
+# that is significantly out of date, the customized version should be rebased
+# if possible. List the reasons a requirement has been customized so that
+# we can determine when a released version meets our needs.
+
+# django-haystack:
+# * Compat with ElasticSearch 5
+# Last upstream patch January 2017
+# TODO: Current upstream may meet requirements
 git+git://github.com/CraveFood/django-haystack.git@d761d1239483cb460056c226f5768ca5e2e78eb7#egg=django-haystack
+
+# django-oidc-provider:
+# * Compat with Django 2.1
+# Base version 0.6.1, customized since July 2018
+git+git://github.com/dcollinsn/django-oidc-provider.git@017d0d3de8f90d77b5179773fca5fc8f151f5d62#egg=django-oidc-provider
+
+# Permanent customized requirements
+
+# django-async:
+# * Upstream is unmaintained
+# * Compat with Django 2.0
+# Base version 0.7.3, last upstream patch April 2017
+git+git://github.com/dcollinsn/django-async.git@0e464ed3e6b77bbbd6069c27924c624c3fe7c0d0#egg=django-async
+
+# django-avatar:
+# * Add "add_/change_/delete_for_user" avatar management views
+# * Improve some caching
+# Base version 4.1.0, last upstream patch December 2017
+git+git://github.com/dcollinsn/django-avatar.git@068a765d7b8abe7808678ad52966a07b19d3d68d#egg=django-avatar
+
+# django-avatar-crop:
+# * Upstream is unmaintained
+# * Compat with Django 1.7
+# Base version 0.3.0, last upstream patch September 2014
+git+git://github.com/dcollinsn/django-avatar-crop.git@9e24133c337790419e73b2753112299c2f1edfea#egg=django-avatar-crop
+
+# django-magic-cards:
+# * Compat with Django 2.0
+# Base version 0.4.1, last upstream patch November 2017
 git+git://github.com/dcollinsn/django-magic-cards.git@094652110240deef6ddb16414d06b916bb5f6c69#egg=django_magic-cards
+
+# django-mailer:
+# * Add support to set custom headers
+# * Add "clean_mailer_log" command
+# Base version 1.2.4, last upstream patch February 2018
 git+git://github.com/dcollinsn/django-mailer.git@a31123856e76bbf2af9f3a70b6316432a8d7c79e#egg=django_mailer
-git+git://github.com/juanifioren/django-oidc-provider.git@795ac322570230ed4c39a98844f0c5431f5024c5#egg=django-oidc-provider
+
+# django-pagination:
+# * Upstream is unmaintained
+# * Compat with Django 2.0
+# Base version 1.0.7, last upstream patch November 2016
 git+git://github.com/dcollinsn/django-pagination.git@7968d3119607637a2d69562063a353c46d408afe#egg=django-pagination
+
+# django-registration:
+# * Upstream has broken compatibility
+# * Compat with Django 2.0
+# Base version 2.4.1, last upstream patch February 2018
 git+git://github.com/dcollinsn/django-registration.git@b0a09d9a1fd2dc91c787c2c529c25c72f4bbbe96#egg=django-registration
-git+git://github.com/aljosa/django-tinymce.git@076ce2df0979195ecc5be4be28755243584e9d41#egg=django-tinymce
+
+# lamson:
+# * Upstream is unmaintained
+# * Compat with Django 2.0
+# Base version 1.3.4, last upstream patch March 2013
 git+git://github.com/dcollinsn/lamson.git@f27bcbc8af4eb5a5766f92cd29634edd03f96f57#egg=lamson
+
+# python-modargs:
+# * Upstream is unmaintained
+# * Compat with Django 2.0
+# Base version 1.8, last upstream patch October 2015
 git+git://github.com/dcollinsn/python-modargs.git@980345515aa1cef7f0313833e0813de9b5bf66b6#egg=python-modargs
