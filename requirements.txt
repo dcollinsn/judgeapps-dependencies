@@ -49,7 +49,7 @@ pep8==1.7.1
 phabricator==0.7.0
 Pillow==5.2.0
 polib==1.1.0
-postmarkup==1.2.1
+postmarkup==1.2.2
 pycryptodomex==3.6.4
 pyflakes==1.0.0
 Pygments==2.2.0
