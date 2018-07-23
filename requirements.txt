@@ -56,7 +56,7 @@ Pygments==2.2.0
 pyjwkest==1.4.0
 pylint==1.9.2
 pylint-django==0.11.1
-pylint-plugin-utils==0.2.6
+pylint-plugin-utils==0.4
 python-daemon==2.1.2
 python-dateutil==2.7.3
 python-memcached==1.58
