@@ -10,7 +10,7 @@ django-countries==5.3.1
 django-dbgettext==0.1
 django-debug-toolbar==1.9
 django-hashid-field==2.1.1
-django-ical==1.4
+django-ical==1.5
 django-localflavor==2.0
 django-messages==0.4.4
 django-multiselectfield==0.1.8
