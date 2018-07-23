@@ -58,7 +58,7 @@ pylint-django==0.11.1
 pylint-plugin-utils==0.4
 python-daemon==2.1.2
 python-dateutil==2.7.3
-python-memcached==1.58
+python-memcached==1.59
 python-openid==2.2.5
 pytz==2018.5
 rcssmin==1.0.6
