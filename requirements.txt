@@ -18,7 +18,7 @@ django-rosetta==0.8.1
 django-sendfile==0.3.11
 django-tables2==1.10.0
 django-widget-tweaks==1.4.1
-flake8==2.5.4
+flake8==3.5.0
 flake8-respect-noqa==0.2
 hashids==1.2.0
 html5lib==1.0.1
