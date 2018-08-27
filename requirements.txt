@@ -16,7 +16,7 @@ django-hashid-field==2.1.1
 django-haystack-panel==0.2.1
 django-ical==1.5
 django-light-enums==0.1.6
-django-localflavor==2.0
+django-localflavor==2.1
 django-messages==0.5.3
 django-multiselectfield==0.1.8
 django-rosetta==0.8.2
