@@ -23,7 +23,7 @@ django-sass-processor==0.7.1
 django-sendfile==0.3.11
 django-tables2==2.0.2
 django-tinymce4-lite==1.7.3
-django-widget-tweaks==1.4.2
+django-widget-tweaks==1.4.3
 docutils==0.14
 elasticsearch==5.5.3
 flake8==3.6.0
