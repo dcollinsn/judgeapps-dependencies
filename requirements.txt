@@ -61,7 +61,7 @@ python-daemon==2.2.0
 python-dateutil==2.7.3
 python-memcached==1.59
 python-openid==2.2.5
-pytz==2018.5
+pytz==2018.6
 raven==6.9.0
 rcssmin==1.0.6
 requests==2.19.1
