@@ -22,7 +22,7 @@ django-rosetta==0.9.0
 django-sass-processor==0.7
 django-sendfile==0.3.11
 django-tables2==1.21.2
-django-tinymce==2.7.0
+django-tinymce4-lite==1.7.3
 django-widget-tweaks==1.4.2
 docutils==0.14
 elasticsearch==5.5.3
@@ -88,13 +88,18 @@ wrapt==1.10.11
 # Base version 1.8.0, customized since August 2018
 git+git://github.com/django/django-contrib-comments.git@f6001fc4cc76f388021793cd3178de75c5b22b51#egg=django-contrib-comments
 
+# django-markitup:
+# * Compat with Django 2.0
+# Base version 3.0.0, customized since October 2018
+git+git://github.com/dcollinsn/django-markitup.git@c8aa0a0a2ee54fa3753a3a57a6278e560c651d3b#egg=django-markitup
+
 # django-haystack:
 # * Compat with ElasticSearch 5
 # Last upstream patch January 2017
 # TODO: Current upstream may meet requirements
 git+git://github.com/CraveFood/django-haystack.git@d761d1239483cb460056c226f5768ca5e2e78eb7#egg=django-haystack
 
-# django-oidc-provider:
+# django-oidc-provider: 
 # * Compat with Django 2.1
 # Base version 0.6.1, customized since July 2018
 git+git://github.com/dcollinsn/django-oidc-provider.git@85ca08353284da43fe8aba661830aa005bd08955#egg=django-oidc-provider
