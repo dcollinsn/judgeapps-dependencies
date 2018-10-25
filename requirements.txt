@@ -58,7 +58,7 @@ pylint==2.1.0
 pylint-django==2.0.2
 pylint-plugin-utils==0.4
 python-daemon==2.2.0
-python-dateutil==2.7.3
+python-dateutil==2.7.4
 python-memcached==1.59
 python-openid==2.2.5
 pytz==2018.6
