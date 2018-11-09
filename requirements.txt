@@ -64,7 +64,7 @@ python-openid==2.2.5
 pytz==2018.6
 raven==6.9.0
 rcssmin==1.0.6
-requests==2.20.0
+requests==2.20.1
 rjsmin==1.0.12
 simplejson==3.16.0
 six==1.11.0
