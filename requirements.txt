@@ -33,7 +33,7 @@ gunicorn==19.9.0
 hashids==1.2.0
 html5lib==1.0.1
 icalendar==4.0.3
-idna==2.7
+idna==2.8
 inflect==1.0.1
 isort==4.3.4
 Jinja2==2.10
