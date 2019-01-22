@@ -21,7 +21,7 @@ django-multiselectfield==0.1.8
 django-rosetta==0.9.0
 django-sass-processor==0.7.1
 django-sendfile==0.3.11
-django-tables2==2.0.2
+django-tables2==2.0.4
 django-tinymce4-lite==1.7.3
 django-widget-tweaks==1.4.3
 docutils==0.14
