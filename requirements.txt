@@ -1,4 +1,4 @@
-Django==2.1.2
+Django==2.1.7
 mysqlclient==1.4.2
 astroid==2.0.4
 bleach==3.0.2
