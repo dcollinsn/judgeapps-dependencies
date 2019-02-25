@@ -27,7 +27,7 @@ django-tinymce4-lite==1.7.4
 django-widget-tweaks==1.4.3
 docutils==0.14
 elasticsearch==5.5.3
-flake8==3.7.5
+flake8==3.7.7
 flake8-respect-noqa==0.3
 future==0.17.1
 gunicorn==19.9.0
