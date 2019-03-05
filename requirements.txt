@@ -18,7 +18,7 @@ django-light-enums==0.1.6
 django-localflavor==2.1
 django-messages==0.5.3
 django-multiselectfield==0.1.8
-django-mysql==2.4.1
+django-mysql==3.0.0.post1
 django-rosetta==0.9.1
 django-sass-processor==0.7.2
 django-sendfile==0.3.11
