@@ -11,7 +11,7 @@ django-compressor==2.2
 django-countries==5.3.2
 django-dbgettext==0.1.2
 django-debug-toolbar==1.11
-django-hashid-field==2.1.5
+django-hashid-field==2.1.6
 django-haystack-panel==0.2.1
 django-ical==1.5
 django-light-enums==0.1.6
