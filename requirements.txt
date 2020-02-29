@@ -70,7 +70,7 @@ requests==2.21.0
 rjsmin==1.0.12
 simplejson==3.16.0
 six==1.12.0
-sqlparse==0.2.4
+sqlparse==0.3.1
 unicodecsv==0.14.1
 urllib3==1.24.1
 webencodings==0.5.1
