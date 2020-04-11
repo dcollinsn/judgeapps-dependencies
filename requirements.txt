@@ -23,7 +23,7 @@ django-rosetta==0.9.1
 django-sass-processor==0.7.2
 django-sendfile==0.3.11
 django-tables2==2.0.4
-django-tinymce4-lite==1.7.4
+django-tinymce4-lite==1.8.0
 django-widget-tweaks==1.4.3
 docutils==0.14
 elasticsearch==5.5.3
