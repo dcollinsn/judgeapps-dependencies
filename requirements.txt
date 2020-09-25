@@ -10,7 +10,7 @@ django-bleach==0.5.0
 django-compressor==2.2
 django-countries==5.3.2
 django-dbgettext==0.1.2
-django-debug-toolbar==1.11
+django-debug-toolbar==3.1.1
 django-hashid-field==2.1.5
 django-haystack-panel==0.2.1
 django-ical==1.5
