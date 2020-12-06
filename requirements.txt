@@ -53,7 +53,7 @@ polib==1.1.0
 postmarkup==1.2.2
 pycryptodomex==3.7.3
 pyflakes==2.1.0
-Pygments==2.3.1
+Pygments==2.7.3
 pyjwkest==1.4.0
 pylibmc==1.6.0
 pylint==2.2.2
